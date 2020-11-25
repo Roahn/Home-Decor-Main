@@ -1,0 +1,107 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.preload {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 100vh;
+  background-color: #77b3d4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+transition: opacity 0.5s ease;
+
+
+
+}
+.iconify {
+  height: 400px;
+ 
+  animation: airplane 2s ease infinite alternate;
+}
+
+.preload h1 {
+  font: 30px sans-serif;
+  color: white;
+position:absolute;
+top:75%;
+transform: translateY(-75%);
+
+
+
+
+}
+
+
+
+@keyframes airplane {
+  from {
+    transform: translateY(-25%);
+  }
+  to {
+    transform: translateY(25%);
+  }
+}
+
+.cloud1,
+.cloud2,
+.cloud3 {
+  height: 200px;
+z-index: -1;
+  position: absolute;
+}
+
+.cloud1{
+top: 25%;
+right: 0;
+
+transform: translate(100%,-25%);
+animation: cloud 3s ease infinite ;
+
+}
+.cloud2{
+top:50%;
+right: 0;
+transform: translate(100%,-50%);
+animation: cloud 3s ease infinite 2s;
+
+}
+
+.cloud3{
+  transform: translate(100%,-75%);
+top:75%;
+right: 0;
+animation: cloud 4s ease infinite 2.4s;
+}
+
+
+
+@keyframes cloud{
+
+
+from {
+
+right: 0%;
+}
+to {
+
+right: 150%;
+
+}
+
+}
+
+
+.haha{
+  opacity:0;
+  pointer-events: none;
+
+
+
+
+
+}
