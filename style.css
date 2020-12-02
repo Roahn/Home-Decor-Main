@@ -844,10 +844,10 @@ height: 499px;
 #review-form p{
 
     font-family: 'Lobster Two', cursive;
-    font-size: 6.6vw;
-    width:72vw;
+    
     margin:auto;
-
+    font-size: 5vw;
+    width: 57vw;
 }
 button{
     margin:auto;
