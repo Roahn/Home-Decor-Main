@@ -36,7 +36,7 @@ font-family: calibri;
 position: fixed;
 top: 0;
 left: 0;
-width:100%;
+width:100vw;
 box-sizing: border-box;
 padding: 10px 50px;
 background-color:#8B4513;
