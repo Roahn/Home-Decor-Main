@@ -969,3 +969,41 @@ button{
   
   }
   */
+
+
+
+
+
+  @media screen and (max-width:361px) {
+
+
+    .name h1 {
+      font-family: Poppins;
+      font-size: 60px;
+      margin: 0px;
+      letter-spacing: 3px;
+      color: black;
+  }
+
+    #main {
+      background-image: url(./images/v.png);
+      
+
+  }
+
+  #contact-form {
+    padding: 0px;}
+
+#services{
+  height: 100vh;
+}
+
+
+#review-form p {
+  font-family: 'Lobster Two', cursive;
+  font-size: 19px;
+  width: 250px;
+  margin: auto;
+}
+
+  }
