@@ -552,7 +552,7 @@ width:95% !important;
 }
 @media(max-width:970px){
 #main{
-    background-image: url("../images/v.png");
+    background-image: url("./images/v.png");
 
 }
 .name{
