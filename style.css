@@ -972,6 +972,48 @@ button{
 
 
 
+@media screen and (max-width:361px) {
+
+  #main {
+      background-image: url(./aimg/nong-vang-aADfITMp2jI-unsplash.jpg);
+      position:center;
+      background-size: 135% !important;
+      
+     
+  }
+
+
+    .name h1 {
+      font-family: Poppins;
+      font-size: 60px;
+      margin: 0px;
+      letter-spacing: 3px;
+      color: black;
+  }
+
+  
+ 
+  #contact-form {
+    padding: 0px;}
+
+#services{
+  height: 100vh;
+}
+
+
+#review-form p {
+  font-family: 'Lobster Two', cursive;
+  font-size: 19px;
+  width: 250px;
+  margin: auto;
+}
+
+
+}
+
+
+
+
 
 
   @media screen and (max-width:361px) {
