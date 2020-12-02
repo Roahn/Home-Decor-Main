@@ -985,10 +985,13 @@ button{
       color: black;
   }
 
+  
     #main {
-      background-image: url(./images/v.png);
+      background-image: url(./aimg/nong-vang-aADfITMp2jI-unsplash.jpg);
+      position:center;
+      background-size: 115%;
       
-
+     
   }
 
   #contact-form {
