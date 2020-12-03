@@ -522,7 +522,7 @@ transition: all ease 0.1s;
 }
 @media(max-width:1190px  ){
 #main{
-background-size: 3150px !important;
+background-size: 100vw;
 
 }
 .name{
@@ -844,10 +844,10 @@ height: 499px;
 #review-form p{
 
     font-family: 'Lobster Two', cursive;
-    
-    margin:auto;
     font-size: 70px;
-    width: 57vw;
+    width:730px;
+    margin:auto;
+
 }
 button{
     margin:auto;
@@ -970,52 +970,6 @@ button{
   }
   */
 
-
-
-@media screen and (max-width:413px) {
-
-  #main {
-      background-image: url(./aimg/nong-vang-aADfITMp2jI-unsplash.jpg);
-      position:center;
-      background-size: 135% !important;
-      
-     
-  }
-
-
-    .name h1 {
-      font-family: Poppins;
-      font-size: 60px;
-      margin: 0px;
-      letter-spacing: 3px;
-      color: black;
-  }
-
-  
- 
-  #contact-form {
-    padding: 0px;}
-
-#services{
-  height: 100vh;
-}
-
-
-#review-form p {
-  font-family: 'Lobster Two', cursive;
-  font-size: 19px;
-  width: 250px;
-  margin: auto;
-}
-
-
-}
-
-
-
-
-
-
   @media screen and (max-width:361px) {
 
 
@@ -1027,11 +981,10 @@ button{
       color: black;
   }
 
-  
     #main {
       background-image: url(./aimg/nong-vang-aADfITMp2jI-unsplash.jpg);
       position:center;
-      background-size: 130% !important;
+      background-size: 115%;
       
      
   }
@@ -1052,3 +1005,42 @@ button{
 }
 
   }
+
+  
+  @media screen and (max-width:412px) {
+
+
+    #main {
+      background-image: url(./aimg/nong-vang-aADfITMp2jI-unsplash.jpg);
+   padding:0;
+   height: 80vh;
+      background-size: 115%;
+      
+     
+  }
+
+  .name h1 {
+    font-family: Poppins;
+    font-size: 82px;
+    margin: 0px;
+    letter-spacing: 3px;
+    color: black;
+}
+#review-form div {
+  margin: auto;
+  width: 200px;
+}
+button{
+  width: 190px;
+}
+#review-form p {
+  font-family: 'Lobster Two', cursive;
+  font-size: 21px;
+  width: 250px;
+  margin: auto;
+}
+  }
+
+
+
+
