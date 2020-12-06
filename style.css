@@ -972,7 +972,7 @@ button{
 
   @media screen and (max-width:361px) {
 .about-text {
-    width: 70% !important;
+    font-size:24px !important;
 }
 
     .name h1 {
