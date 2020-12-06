@@ -971,11 +971,13 @@ button{
   */
 
   @media screen and (max-width:361px) {
-
+.about-text {
+    width: 70% !important;
+}
 
     .name h1 {
       font-family: Poppins;
-      font-size: 60px;
+      font-size: 60px !important;
       margin: 0px;
       letter-spacing: 3px;
       color: black;
