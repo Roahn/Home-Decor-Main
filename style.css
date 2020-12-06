@@ -971,10 +971,15 @@ button{
   */
 
   @media screen and (max-width:361px) {
-.about-text {
-    font-size:24px !important;
-}
 
+.about-text h1 {
+    font-size: 3rem;
+}
+      .about-text h2 {
+    font-size: 2.5em;
+    color: #0c0b0b;
+          font-weight: 400;}
+      
     .name h1 {
       font-family: Poppins;
       font-size: 60px !important;
