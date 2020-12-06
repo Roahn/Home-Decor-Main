@@ -971,6 +971,13 @@ button{
   */
 
   @media screen and (max-width:361px) {
+      
+      .s-heading h1 {
+    color: #FFFFFF;
+    font-size: 2rem;
+    margin: 0px;
+    padding: 0px;
+}
 
 .about-text h1 {
     font-size: 3rem;
