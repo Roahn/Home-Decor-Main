@@ -1032,6 +1032,24 @@ button{
       
      
   }
+      
+      #ele{
+    top:90%;
+    left:40%;
+    transform: translateX(-50%);
+}
+      
+      
+      
+      #nine,#ten,#ele{
+
+    max-width: min-content;
+    position: absolute;
+width: 300px;
+margin:  auto;
+color: white;
+}
+      
 
   .name h1 {
     font-family: Poppins;
@@ -1073,7 +1091,7 @@ button{
 
 #nine,#ten,#ele{
 
-    max-width: min-content;
+    
     position: absolute;
 width: 300px;
 margin:  auto;
