@@ -1064,7 +1064,7 @@ button{
     animation: experiment 3s ease infinite;
   
 
-    animation-delay: 10s;
+    animation-delay: 7s;
     opacity: 1;
     position:absolute;
     top:0;
@@ -1073,7 +1073,7 @@ button{
 
 #nine,#ten,#ele{
 
-
+    max-width: min-content;
     position: absolute;
 width: 300px;
 margin:  auto;
