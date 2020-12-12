@@ -1024,9 +1024,27 @@ button{
   
   @media screen and (max-width:412px) {
     
+      .s-b-text a {
+    margin: 0px;
+    color: #fffffff2;
+    font-size: 1.1rem;
+    font-family: calibri;
+    display: block;
+    display: -webkit-box;
+    max-width: 79%;
+    text-shadow: azure;
+    height: -webkit-fill-available;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
       
       
-      @media only screen and (max-width: 503px)
+      
+      
+      
+      
 .s-b-img {
     width: 104%;
     height: 72%;
@@ -1084,7 +1102,7 @@ button{
 margin:  auto;
 color: white;
 }
-      
+}  
 
   .name h1 {
     font-family: Poppins;
