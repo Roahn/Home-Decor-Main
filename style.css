@@ -1037,7 +1037,7 @@ button{
       #ele{
     top:80%;
     margin:auto;
-          width:300px;
+         
 }
       
       
@@ -1046,7 +1046,7 @@ button{
 
     max-width: min-content;
     position: absolute;
-width: 300px;
+
 margin:  auto;
 color: white;
 }
