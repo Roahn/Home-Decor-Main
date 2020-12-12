@@ -6,6 +6,7 @@ body{
 margin:0px;
 padding:0px;
 background-color:#161616;
+    animation:sw 5s;
 }
 ul{
 list-style:none;
@@ -1161,3 +1162,15 @@ color: white;
   }
 
 
+@keyframes sw{
+
+
+  from {
+height: 100vh;
+overflow: hidden;
+  }
+  to {
+height:max-content;
+overflow: hidden;
+  }
+}
