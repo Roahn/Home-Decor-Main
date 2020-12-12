@@ -1034,10 +1034,26 @@ button{
      
   }
       
-      #ele{
-    top:80%;
-    margin:auto;
+
+      #nine{
+
+
+    top:10%!important;
+    left:50%;
+    transform: translateX(-33%);
+}
+#ten{
+    animation: h2 1s infinite  ease alternate;
+    top:40%!important;
+    left:50%;
+    transform: translateX(-50%);
+}
+#ele{
+    top:60%!important;
+    left:40%;
+     margin:auto;
          
+   
 }
       
       
