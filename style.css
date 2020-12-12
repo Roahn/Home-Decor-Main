@@ -958,6 +958,9 @@ button {
     width: 50px;
     font-size: 20px;
   }
+  #ele {
+top: 80%!important;
+  }
 
   .s-heading h1 {
     color: #ffffff;
